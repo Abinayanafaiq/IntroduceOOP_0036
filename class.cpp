@@ -22,3 +22,12 @@ class Mobil{
             cout << "harga mobil: " << harga_mobil << endl;
         }
 };
+
+int main(){
+    Mobil rfiamar;
+    rfiamar.input_data();
+    cout << "Nama mobil: " << rfiamar.nama_mobil << endl;
+    cout << "Tipe mobil: " << rfiamar.tipe_mobil << endl;
+    rfiamar.output_data();
+    
+}
