@@ -19,4 +19,10 @@ class persegi_panjang{
         void output_data(){
             cout << "Luas persegi panjang: " << luas << endl;
         }
+};
+int main(){
+    persegi_panjang pp;
+    pp.input_data();
+    pp.hitung_luas();
+    pp.output_data()
 }
